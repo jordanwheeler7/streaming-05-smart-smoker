@@ -1,9 +1,9 @@
 """
     This program sends a message to a queue on the RabbitMQ server.
-    Make tasks harder/longer-running by adding dots at the end of the message.
+    It simulates temperatures being relayed from a smoker to a server.
 
     Author: Jordan Wheeler
-    Date: 14 September 2023
+    Date: 19 September 2023
 """
 
 import pika
@@ -18,7 +18,7 @@ from util_logger import setup_logger
 
 logger, logname = setup_logger(__file__)
 
-SHOW_OFFER = False
+SHOW_OFFER = True
 
 def offer_rabbitmq_admin_site():
     """Offer to open the RabbitMQ Admin website"""
@@ -35,8 +35,8 @@ def send_message(host: str, first_queue_name: str, second_queue_name: str, third
 
     Parameters:
         host (str): the host name or IP address of the RabbitMQ server
-        queue_name (str): the name of the queue
-        message (str): the message to be sent to the queue
+        queue_names (str): the names of the queue's to send the message to
+        input_file: the name of the file to read the messages from
     """
 
     try:
@@ -44,6 +44,12 @@ def send_message(host: str, first_queue_name: str, second_queue_name: str, third
         conn = pika.BlockingConnection(pika.ConnectionParameters(host))
         # use the connection to create a communication channel
         ch = conn.channel()
+        
+        # delete the queue if it already exists
+        # this is a convenience to clear the queue before running        
+        ch.queue_delete(queue=first_queue_name)
+        ch.queue_delete(queue=second_queue_name)
+        ch.queue_delete(queue=third_queue_name)
         # use the channel to declare a durable queue
         # a durable queue will survive a RabbitMQ server restart
         # and help ensure messages are processed in order
@@ -56,30 +62,37 @@ def send_message(host: str, first_queue_name: str, second_queue_name: str, third
             reader = csv.reader(input_file)
             # skip the header row
             header = next(reader)
+            logger.info("Skipping header row")
             # for each row in the file
             for row in reader:
                 # get row variables
-                Type,Severity,Precipitation,City,State = row
+                time_stamp, smoker_temp, foodA, foodB = row
                 
                 # create a message to send to the queue
-                message1 = str(Type) + "," + str(Severity)
-                message2 = str(City) + "," + str(State)
-                message3 = Precipitation
+                message1 = time_stamp, smoker_temp
+                message2 = time_stamp, foodA
+                message3 = time_stamp, foodB
+                
+                # encode the messages
+                message1_encode = "," .join(message1).encode()
+                message2_encode = "," .join(message2).encode()
+                message3_encode = "," .join(message3).encode()              
+                
                 # use the channel to publish a message to the queue
                 # every message passes through an exchange
-                ch.basic_publish(exchange="", routing_key=first_queue_name, body=message1)
+                ch.basic_publish(exchange="", routing_key=first_queue_name, body=message1_encode)
                 # print a message to the console for the user
                 logger.info(f" [x] Sent {message1} to {first_queue_name}")
                 # use the channel to publish a message to the queue
-                ch.basic_publish(exchange="", routing_key=second_queue_name, body=message2)
+                ch.basic_publish(exchange="", routing_key=second_queue_name, body=message2_encode)
                 # print a message to the console for the user
                 logger.info(f" [x] Sent {message2} to {second_queue_name}")
                 # use the channel to publish a message to the queue
-                ch.basic_publish(exchange="", routing_key=third_queue_name, body=message3)
+                ch.basic_publish(exchange="", routing_key=third_queue_name, body=message3_encode)
                 # print a message to the console for the user
                 logger.info(f" [x] Sent {message3} to {third_queue_name}")
-                # Wait 2 seconds between each message
-                time.sleep(2)
+                # Wait 30 seconds between each message
+                time.sleep(30)
                 
     except pika.exceptions.AMQPConnectionError as e:
         logger.error(f"Error: Connection to RabbitMQ server failed: {e}")
@@ -98,4 +111,4 @@ if __name__ == "__main__":
         # ask the user if they'd like to open the RabbitMQ Admin site
         offer_rabbitmq_admin_site()
     # send the message to the queue
-    send_message("localhost","type_queue","location_queue","precipitation_que","data_weather.csv")  
+    send_message("localhost","01-smoker","02-food-A","02-food-B","smoker-temps.csv")  
