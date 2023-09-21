@@ -28,3 +28,5 @@ This repository serves as an example of streaming data. We demonstrate the proce
 Open up a terminal window and navigate to the file in which you have saved the repository (I use `cd C:\Users\{filepath}`). Once there, start running your virtual environment. Once activated, run `python message_producer.py`. The file will ask you if you want to open RabbitMQ in admin mode, type y for yes and n for no; "guest" is the name and password. Once activated, the file will produce a message every 30 seconds, and a confirmation is sent. Due to this being a durable queue, the file will continue to run until it reaches the end or the user enters `Ctrl + C`. Once ended the queue will be deleted and start again upon the next activation.
 
 ## Screenshots of Running Code
+![RabbitMQ](RabbitMQ_Running.png)
+![Terminal](Running_Producer.png)
