@@ -1,31 +1,18 @@
-2023-09-19 14:01:19,221.message_producer.INFO ==================================================
-2023-09-19 14:01:19,221.message_producer.INFO Today is 2023-09-19 at 02:01 PM
-2023-09-19 14:01:19,221.message_producer.INFO Running on: nt Windows 10
-2023-09-19 14:01:19,221.message_producer.INFO Python version:  3.11.1
-2023-09-19 14:01:19,221.message_producer.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker\.venv
-2023-09-19 14:01:19,221.message_producer.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker
-2023-09-19 14:01:19,221.message_producer.INFO ==================================================
-2023-09-19 14:01:23,713.message_producer.INFO Seeing if you want to monitor RabbitMQ queues
-2023-09-19 14:01:23,827.message_producer.INFO Answer is y.
-2023-09-19 14:01:23,876.message_producer.INFO Skipping header row
-2023-09-19 14:01:23,877.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '84.2') to 01-smoker
-2023-09-19 14:01:23,877.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-A
-2023-09-19 14:01:23,877.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-B
-2023-09-19 14:01:53,880.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '84.2') to 01-smoker
-2023-09-19 14:01:53,880.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-A
-2023-09-19 14:01:53,881.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-B
-2023-09-19 14:02:23,883.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '87.6') to 01-smoker
-2023-09-19 14:02:23,884.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-A
-2023-09-19 14:02:23,884.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-B
-2023-09-19 14:02:53,885.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', '87.6') to 01-smoker
-2023-09-19 14:02:53,885.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', '') to 02-food-A
-2023-09-19 14:02:53,885.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', '') to 02-food-B
-2023-09-19 14:03:23,887.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', '86.3') to 01-smoker
-2023-09-19 14:03:23,887.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', '') to 02-food-A
-2023-09-19 14:03:23,887.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', '') to 02-food-B
-2023-09-19 14:03:53,889.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', '86.3') to 01-smoker
-2023-09-19 14:03:53,890.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', '') to 02-food-A
-2023-09-19 14:03:53,890.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', '') to 02-food-B
-2023-09-19 14:04:23,892.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', '92.0') to 01-smoker
-2023-09-19 14:04:23,893.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', '') to 02-food-A
-2023-09-19 14:04:23,893.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', '') to 02-food-B
+2023-09-19 14:08:49,807.message_producer.INFO ==================================================
+2023-09-19 14:08:49,808.message_producer.INFO Today is 2023-09-19 at 02:08 PM
+2023-09-19 14:08:49,808.message_producer.INFO Running on: nt Windows 10
+2023-09-19 14:08:49,808.message_producer.INFO Python version:  3.11.1
+2023-09-19 14:08:49,808.message_producer.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker\.venv
+2023-09-19 14:08:49,809.message_producer.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker
+2023-09-19 14:08:49,809.message_producer.INFO ==================================================
+2023-09-19 14:08:56,570.message_producer.INFO Seeing if you want to monitor RabbitMQ queues
+2023-09-19 14:08:56,625.message_producer.INFO Skipping header row
+2023-09-19 14:08:56,626.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '84.2') to 01-smoker
+2023-09-19 14:08:56,626.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-A
+2023-09-19 14:08:56,627.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-B
+2023-09-19 14:09:26,627.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '84.2') to 01-smoker
+2023-09-19 14:09:26,628.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-A
+2023-09-19 14:09:26,629.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-B
+2023-09-19 14:09:56,630.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '87.6') to 01-smoker
+2023-09-19 14:09:56,632.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-A
+2023-09-19 14:09:56,633.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-B
