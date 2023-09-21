@@ -3,7 +3,7 @@
 - CSIS 44671: Streaming Data
 - Module 5: Creating a Producer
 - 19 September 2023
-- [Github Pages]()
+- [Github Pages](https://jordanwheeler7.github.io/streaming-05-smart-smoker/)
 
 ## Overview
 This repository serves as an example of streaming data. We demonstrate the process, design our system, and implement the producer. In this project, we create a producer to send three different temperature readings to consumers. Channel 1 tells us the temperature of the smoker itself. Channels 2 & 3 read the temperatures of two different meats. Utilizing RabbitMQ, we send this information to the different consumers for us to be able to analyze.
