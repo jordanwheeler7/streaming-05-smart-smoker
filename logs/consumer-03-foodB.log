@@ -196,3 +196,11 @@
 2023-09-28 17:20:41,082.consumer-03-foodB.INFO [X] foodB Temperature Received and Processed.
 2023-09-28 17:21:11,084.consumer-03-foodB.INFO  [x] Received 05/22/21 13:06:10,No Reading
 2023-09-28 17:21:11,084.consumer-03-foodB.INFO [X] foodB Temperature Received and Processed.
+2023-09-28 17:21:41,086.consumer-03-foodB.INFO  [x] Received 05/22/21 13:06:15,No Reading
+2023-09-28 17:21:41,086.consumer-03-foodB.INFO [X] foodB Temperature Received and Processed.
+2023-09-28 17:22:11,087.consumer-03-foodB.INFO  [x] Received 05/22/21 13:07:10,No Reading
+2023-09-28 17:22:11,087.consumer-03-foodB.INFO [X] foodB Temperature Received and Processed.
+2023-09-28 17:22:22,824.consumer-03-foodB.INFO  User interrupted continuous listening process.
+2023-09-28 17:22:22,824.consumer-03-foodB.INFO 
+Closing connection. Goodbye.
+
