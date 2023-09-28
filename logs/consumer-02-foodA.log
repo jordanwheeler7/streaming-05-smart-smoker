@@ -1,0 +1,198 @@
+2023-09-28 16:36:15,803.consumer-02-foodA.INFO ==================================================
+2023-09-28 16:36:15,803.consumer-02-foodA.INFO Today is 2023-09-28 at 04:36 PM
+2023-09-28 16:36:15,803.consumer-02-foodA.INFO Running on: nt Windows 10
+2023-09-28 16:36:15,803.consumer-02-foodA.INFO Python version:  3.11.1
+2023-09-28 16:36:15,804.consumer-02-foodA.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker\.venv
+2023-09-28 16:36:15,804.consumer-02-foodA.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker
+2023-09-28 16:36:15,804.consumer-02-foodA.INFO ==================================================
+2023-09-28 16:36:15,817.consumer-02-foodA.INFO  [*] Ready for work. To exit press CTRL+C
+2023-09-28 16:36:15,817.consumer-02-foodA.INFO  [x] Received 05/22/21 12:20:15,No Reading
+2023-09-28 16:36:15,817.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:36:15,818.consumer-02-foodA.INFO  [x] Received 05/22/21 12:20:20,No Reading
+2023-09-28 16:36:15,818.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:36:15,818.consumer-02-foodA.INFO  [x] Received 05/22/21 12:21:10,No Reading
+2023-09-28 16:36:15,818.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:36:15,819.consumer-02-foodA.INFO  [x] Received 05/22/21 12:21:15,No Reading
+2023-09-28 16:36:15,819.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:36:15,819.consumer-02-foodA.INFO  [x] Received 05/22/21 12:22:10,No Reading
+2023-09-28 16:36:15,819.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:36:40,921.consumer-02-foodA.INFO  [x] Received 05/22/21 12:22:15,No Reading
+2023-09-28 16:36:40,921.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:37:10,923.consumer-02-foodA.INFO  [x] Received 05/22/21 12:23:10,No Reading
+2023-09-28 16:37:10,923.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:37:40,925.consumer-02-foodA.INFO  [x] Received 05/22/21 12:23:15,No Reading
+2023-09-28 16:37:40,925.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:38:10,926.consumer-02-foodA.INFO  [x] Received 05/22/21 12:24:10,No Reading
+2023-09-28 16:38:10,926.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:38:40,928.consumer-02-foodA.INFO  [x] Received 05/22/21 12:24:15,No Reading
+2023-09-28 16:38:40,928.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:39:10,931.consumer-02-foodA.INFO  [x] Received 05/22/21 12:25:05,No Reading
+2023-09-28 16:39:10,931.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:39:40,932.consumer-02-foodA.INFO  [x] Received 05/22/21 12:25:10,No Reading
+2023-09-28 16:39:40,932.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:40:10,934.consumer-02-foodA.INFO  [x] Received 05/22/21 12:25:15,No Reading
+2023-09-28 16:40:10,935.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:40:40,936.consumer-02-foodA.INFO  [x] Received 05/22/21 12:26:10,No Reading
+2023-09-28 16:40:40,936.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:41:10,938.consumer-02-foodA.INFO  [x] Received 05/22/21 12:26:15,No Reading
+2023-09-28 16:41:10,938.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:41:40,941.consumer-02-foodA.INFO  [x] Received 05/22/21 12:27:10,No Reading
+2023-09-28 16:41:40,941.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:42:10,942.consumer-02-foodA.INFO  [x] Received 05/22/21 12:27:15,No Reading
+2023-09-28 16:42:10,942.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:42:40,943.consumer-02-foodA.INFO  [x] Received 05/22/21 12:28:10,No Reading
+2023-09-28 16:42:40,943.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:43:10,946.consumer-02-foodA.INFO  [x] Received 05/22/21 12:28:15,No Reading
+2023-09-28 16:43:10,946.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:43:40,947.consumer-02-foodA.INFO  [x] Received 05/22/21 12:29:10,No Reading
+2023-09-28 16:43:40,947.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:44:10,949.consumer-02-foodA.INFO  [x] Received 05/22/21 12:29:15,No Reading
+2023-09-28 16:44:10,950.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:44:40,950.consumer-02-foodA.INFO  [x] Received 05/22/21 12:30:10,No Reading
+2023-09-28 16:44:40,952.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:45:10,953.consumer-02-foodA.INFO  [x] Received 05/22/21 12:30:15,No Reading
+2023-09-28 16:45:10,953.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:45:40,955.consumer-02-foodA.INFO  [x] Received 05/22/21 12:31:10,No Reading
+2023-09-28 16:45:40,955.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:46:10,956.consumer-02-foodA.INFO  [x] Received 05/22/21 12:31:15,No Reading
+2023-09-28 16:46:10,956.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:46:40,959.consumer-02-foodA.INFO  [x] Received 05/22/21 12:32:10,No Reading
+2023-09-28 16:46:40,959.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:47:10,960.consumer-02-foodA.INFO  [x] Received 05/22/21 12:32:15,No Reading
+2023-09-28 16:47:10,960.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:47:40,963.consumer-02-foodA.INFO  [x] Received 05/22/21 12:33:10,No Reading
+2023-09-28 16:47:40,963.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:48:10,964.consumer-02-foodA.INFO  [x] Received 05/22/21 12:33:15,No Reading
+2023-09-28 16:48:10,964.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:48:40,967.consumer-02-foodA.INFO  [x] Received 05/22/21 12:34:10,No Reading
+2023-09-28 16:48:40,967.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:49:10,968.consumer-02-foodA.INFO  [x] Received 05/22/21 12:34:15,No Reading
+2023-09-28 16:49:10,968.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:49:40,971.consumer-02-foodA.INFO  [x] Received 05/22/21 12:35:10,No Reading
+2023-09-28 16:49:40,971.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:50:10,972.consumer-02-foodA.INFO  [x] Received 05/22/21 12:35:15,No Reading
+2023-09-28 16:50:10,972.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:50:40,974.consumer-02-foodA.INFO  [x] Received 05/22/21 12:36:10,No Reading
+2023-09-28 16:50:40,974.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:51:10,975.consumer-02-foodA.INFO  [x] Received 05/22/21 12:36:15,No Reading
+2023-09-28 16:51:10,976.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:51:40,977.consumer-02-foodA.INFO  [x] Received 05/22/21 12:37:10,No Reading
+2023-09-28 16:51:40,977.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:52:10,979.consumer-02-foodA.INFO  [x] Received 05/22/21 12:37:15,No Reading
+2023-09-28 16:52:10,980.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:52:40,980.consumer-02-foodA.INFO  [x] Received 05/22/21 12:38:10,No Reading
+2023-09-28 16:52:40,981.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:53:10,982.consumer-02-foodA.INFO  [x] Received 05/22/21 12:38:15,No Reading
+2023-09-28 16:53:10,982.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:53:40,984.consumer-02-foodA.INFO  [x] Received 05/22/21 12:39:10,No Reading
+2023-09-28 16:53:40,984.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:54:10,986.consumer-02-foodA.INFO  [x] Received 05/22/21 12:39:15,No Reading
+2023-09-28 16:54:10,986.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:54:40,988.consumer-02-foodA.INFO  [x] Received 05/22/21 12:40:10,No Reading
+2023-09-28 16:54:40,988.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:55:10,988.consumer-02-foodA.INFO  [x] Received 05/22/21 12:40:15,No Reading
+2023-09-28 16:55:10,989.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:55:40,991.consumer-02-foodA.INFO  [x] Received 05/22/21 12:41:10,No Reading
+2023-09-28 16:55:40,991.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:56:10,992.consumer-02-foodA.INFO  [x] Received 05/22/21 12:41:15,No Reading
+2023-09-28 16:56:10,992.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:56:40,994.consumer-02-foodA.INFO  [x] Received 05/22/21 12:42:10,No Reading
+2023-09-28 16:56:40,994.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:57:10,995.consumer-02-foodA.INFO  [x] Received 05/22/21 12:42:15,No Reading
+2023-09-28 16:57:10,995.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:57:40,997.consumer-02-foodA.INFO  [x] Received 05/22/21 12:43:10,No Reading
+2023-09-28 16:57:40,998.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:58:10,999.consumer-02-foodA.INFO  [x] Received 05/22/21 12:43:15,No Reading
+2023-09-28 16:58:10,999.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:58:41,001.consumer-02-foodA.INFO  [x] Received 05/22/21 12:44:10,No Reading
+2023-09-28 16:58:41,001.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:59:11,002.consumer-02-foodA.INFO  [x] Received 05/22/21 12:44:15,No Reading
+2023-09-28 16:59:11,003.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 16:59:41,006.consumer-02-foodA.INFO  [x] Received 05/22/21 12:45:10,No Reading
+2023-09-28 16:59:41,006.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:00:11,007.consumer-02-foodA.INFO  [x] Received 05/22/21 12:45:15,No Reading
+2023-09-28 17:00:11,007.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:00:41,009.consumer-02-foodA.INFO  [x] Received 05/22/21 12:46:10,No Reading
+2023-09-28 17:00:41,009.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:01:11,011.consumer-02-foodA.INFO  [x] Received 05/22/21 12:46:15,No Reading
+2023-09-28 17:01:11,011.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:01:41,013.consumer-02-foodA.INFO  [x] Received 05/22/21 12:47:10,No Reading
+2023-09-28 17:01:41,013.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:02:11,014.consumer-02-foodA.INFO  [x] Received 05/22/21 12:47:15,No Reading
+2023-09-28 17:02:11,014.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:02:41,016.consumer-02-foodA.INFO  [x] Received 05/22/21 12:48:10,No Reading
+2023-09-28 17:02:41,016.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:03:11,018.consumer-02-foodA.INFO  [x] Received 05/22/21 12:48:15,No Reading
+2023-09-28 17:03:11,018.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:03:41,020.consumer-02-foodA.INFO  [x] Received 05/22/21 12:49:10,No Reading
+2023-09-28 17:03:41,020.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:04:11,021.consumer-02-foodA.INFO  [x] Received 05/22/21 12:49:15,No Reading
+2023-09-28 17:04:11,022.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:04:41,024.consumer-02-foodA.INFO  [x] Received 05/22/21 12:50:10,No Reading
+2023-09-28 17:04:41,024.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:05:11,026.consumer-02-foodA.INFO  [x] Received 05/22/21 12:50:15,No Reading
+2023-09-28 17:05:11,026.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:05:41,028.consumer-02-foodA.INFO  [x] Received 05/22/21 12:51:10,No Reading
+2023-09-28 17:05:41,028.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:06:11,029.consumer-02-foodA.INFO  [x] Received 05/22/21 12:51:15,No Reading
+2023-09-28 17:06:11,030.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:06:41,031.consumer-02-foodA.INFO  [x] Received 05/22/21 12:52:10,No Reading
+2023-09-28 17:06:41,031.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:07:11,032.consumer-02-foodA.INFO  [x] Received 05/22/21 12:52:15,No Reading
+2023-09-28 17:07:11,033.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:07:41,034.consumer-02-foodA.INFO  [x] Received 05/22/21 12:53:10,No Reading
+2023-09-28 17:07:41,035.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:08:11,037.consumer-02-foodA.INFO  [x] Received 05/22/21 12:53:15,No Reading
+2023-09-28 17:08:11,037.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:08:41,039.consumer-02-foodA.INFO  [x] Received 05/22/21 12:54:10,No Reading
+2023-09-28 17:08:41,039.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:09:11,041.consumer-02-foodA.INFO  [x] Received 05/22/21 12:54:15,No Reading
+2023-09-28 17:09:11,041.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:09:41,042.consumer-02-foodA.INFO  [x] Received 05/22/21 12:55:05,No Reading
+2023-09-28 17:09:41,042.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:10:11,043.consumer-02-foodA.INFO  [x] Received 05/22/21 12:55:10,No Reading
+2023-09-28 17:10:11,043.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:10:41,046.consumer-02-foodA.INFO  [x] Received 05/22/21 12:55:15,No Reading
+2023-09-28 17:10:41,046.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:11:11,048.consumer-02-foodA.INFO  [x] Received 05/22/21 12:56:10,No Reading
+2023-09-28 17:11:11,049.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:11:41,050.consumer-02-foodA.INFO  [x] Received 05/22/21 12:56:15,No Reading
+2023-09-28 17:11:41,050.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:12:11,050.consumer-02-foodA.INFO  [x] Received 05/22/21 12:57:10,No Reading
+2023-09-28 17:12:11,051.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:12:41,053.consumer-02-foodA.INFO  [x] Received 05/22/21 12:57:15,No Reading
+2023-09-28 17:12:41,053.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:13:11,054.consumer-02-foodA.INFO  [x] Received 05/22/21 12:58:10,No Reading
+2023-09-28 17:13:11,055.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:13:41,056.consumer-02-foodA.INFO  [x] Received 05/22/21 12:58:15,No Reading
+2023-09-28 17:13:41,056.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:14:11,059.consumer-02-foodA.INFO  [x] Received 05/22/21 12:59:10,No Reading
+2023-09-28 17:14:11,059.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:14:41,061.consumer-02-foodA.INFO  [x] Received 05/22/21 12:59:15,No Reading
+2023-09-28 17:14:41,061.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:15:11,062.consumer-02-foodA.INFO  [x] Received 05/22/21 13:00:10,No Reading
+2023-09-28 17:15:11,062.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:15:41,063.consumer-02-foodA.INFO  [x] Received 05/22/21 13:00:15,No Reading
+2023-09-28 17:15:41,064.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:16:11,065.consumer-02-foodA.INFO  [x] Received 05/22/21 13:01:10,No Reading
+2023-09-28 17:16:11,066.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:16:41,066.consumer-02-foodA.INFO  [x] Received 05/22/21 13:01:15,No Reading
+2023-09-28 17:16:41,068.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:17:11,069.consumer-02-foodA.INFO  [x] Received 05/22/21 13:02:10,No Reading
+2023-09-28 17:17:11,069.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:17:41,070.consumer-02-foodA.INFO  [x] Received 05/22/21 13:02:15,No Reading
+2023-09-28 17:17:41,071.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:18:11,073.consumer-02-foodA.INFO  [x] Received 05/22/21 13:03:10,No Reading
+2023-09-28 17:18:11,073.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:18:41,075.consumer-02-foodA.INFO  [x] Received 05/22/21 13:03:15,No Reading
+2023-09-28 17:18:41,075.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:19:11,075.consumer-02-foodA.INFO  [x] Received 05/22/21 13:04:10,No Reading
+2023-09-28 17:19:11,077.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:19:41,079.consumer-02-foodA.INFO  [x] Received 05/22/21 13:04:15,No Reading
+2023-09-28 17:19:41,079.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:20:11,080.consumer-02-foodA.INFO  [x] Received 05/22/21 13:05:10,No Reading
+2023-09-28 17:20:11,080.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:20:41,081.consumer-02-foodA.INFO  [x] Received 05/22/21 13:05:15,No Reading
+2023-09-28 17:20:41,082.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.
+2023-09-28 17:21:11,083.consumer-02-foodA.INFO  [x] Received 05/22/21 13:06:10,No Reading
+2023-09-28 17:21:11,084.consumer-02-foodA.INFO [X] FoodA Temperature Received and Processed.

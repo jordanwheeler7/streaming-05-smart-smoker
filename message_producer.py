@@ -68,6 +68,16 @@ def send_message(host: str, first_queue_name: str, second_queue_name: str, third
                 # get row variables
                 time_stamp, smoker_temp, foodA, foodB = row
                 
+                # Ensure our temperatures have a reading
+                if smoker_temp == '':
+                    smoker_temp = 'No Reading'
+                if foodA == '':
+                    foodA = 'No Reading'
+                if foodB == '':
+                    foodB = 'No Reading'
+                
+            
+           
                 # create a message to send to the queue
                 message1 = time_stamp, smoker_temp
                 message2 = time_stamp, foodA
@@ -111,4 +121,4 @@ if __name__ == "__main__":
         # ask the user if they'd like to open the RabbitMQ Admin site
         offer_rabbitmq_admin_site()
     # send the message to the queue
-    send_message("localhost","01-smoker","02-food-A","02-food-B","smoker-temps.csv")  
+    send_message("localhost","01-smoker","02-food-A","03-food-B","smoker-temps.csv")  

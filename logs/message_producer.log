@@ -1,18 +1,294 @@
-2023-09-19 14:08:49,807.message_producer.INFO ==================================================
-2023-09-19 14:08:49,808.message_producer.INFO Today is 2023-09-19 at 02:08 PM
-2023-09-19 14:08:49,808.message_producer.INFO Running on: nt Windows 10
-2023-09-19 14:08:49,808.message_producer.INFO Python version:  3.11.1
-2023-09-19 14:08:49,808.message_producer.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker\.venv
-2023-09-19 14:08:49,809.message_producer.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker
-2023-09-19 14:08:49,809.message_producer.INFO ==================================================
-2023-09-19 14:08:56,570.message_producer.INFO Seeing if you want to monitor RabbitMQ queues
-2023-09-19 14:08:56,625.message_producer.INFO Skipping header row
-2023-09-19 14:08:56,626.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '84.2') to 01-smoker
-2023-09-19 14:08:56,626.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-A
-2023-09-19 14:08:56,627.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '') to 02-food-B
-2023-09-19 14:09:26,627.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '84.2') to 01-smoker
-2023-09-19 14:09:26,628.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-A
-2023-09-19 14:09:26,629.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '') to 02-food-B
-2023-09-19 14:09:56,630.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '87.6') to 01-smoker
-2023-09-19 14:09:56,632.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-A
-2023-09-19 14:09:56,633.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '') to 02-food-B
+2023-09-28 16:34:09,150.message_producer.INFO ==================================================
+2023-09-28 16:34:09,150.message_producer.INFO Today is 2023-09-28 at 04:34 PM
+2023-09-28 16:34:09,150.message_producer.INFO Running on: nt Windows 10
+2023-09-28 16:34:09,150.message_producer.INFO Python version:  3.11.1
+2023-09-28 16:34:09,151.message_producer.INFO Python path: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker\.venv
+2023-09-28 16:34:09,151.message_producer.INFO Working dir: C:\Users\jorda\OneDrive\Desktop\Northwest Homework\1. Streaming Data\Module 5\streaming-05-smart-smoker
+2023-09-28 16:34:09,151.message_producer.INFO ==================================================
+2023-09-28 16:34:10,866.message_producer.INFO Seeing if you want to monitor RabbitMQ queues
+2023-09-28 16:34:10,911.message_producer.INFO Skipping header row
+2023-09-28 16:34:10,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', '84.2') to 01-smoker
+2023-09-28 16:34:10,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', 'No Reading') to 02-food-A
+2023-09-28 16:34:10,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:15', 'No Reading') to 03-food-B
+2023-09-28 16:34:40,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', '84.2') to 01-smoker
+2023-09-28 16:34:40,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', 'No Reading') to 02-food-A
+2023-09-28 16:34:40,912.message_producer.INFO  [x] Sent ('05/22/21 12:20:20', 'No Reading') to 03-food-B
+2023-09-28 16:35:10,914.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', '87.6') to 01-smoker
+2023-09-28 16:35:10,915.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', 'No Reading') to 02-food-A
+2023-09-28 16:35:10,915.message_producer.INFO  [x] Sent ('05/22/21 12:21:10', 'No Reading') to 03-food-B
+2023-09-28 16:35:40,916.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', '87.6') to 01-smoker
+2023-09-28 16:35:40,917.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', 'No Reading') to 02-food-A
+2023-09-28 16:35:40,917.message_producer.INFO  [x] Sent ('05/22/21 12:21:15', 'No Reading') to 03-food-B
+2023-09-28 16:36:10,918.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', '86.3') to 01-smoker
+2023-09-28 16:36:10,918.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', 'No Reading') to 02-food-A
+2023-09-28 16:36:10,918.message_producer.INFO  [x] Sent ('05/22/21 12:22:10', 'No Reading') to 03-food-B
+2023-09-28 16:36:40,920.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', '86.3') to 01-smoker
+2023-09-28 16:36:40,921.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', 'No Reading') to 02-food-A
+2023-09-28 16:36:40,921.message_producer.INFO  [x] Sent ('05/22/21 12:22:15', 'No Reading') to 03-food-B
+2023-09-28 16:37:10,922.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', '92.0') to 01-smoker
+2023-09-28 16:37:10,923.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', 'No Reading') to 02-food-A
+2023-09-28 16:37:10,923.message_producer.INFO  [x] Sent ('05/22/21 12:23:10', 'No Reading') to 03-food-B
+2023-09-28 16:37:40,924.message_producer.INFO  [x] Sent ('05/22/21 12:23:15', '92.0') to 01-smoker
+2023-09-28 16:37:40,924.message_producer.INFO  [x] Sent ('05/22/21 12:23:15', 'No Reading') to 02-food-A
+2023-09-28 16:37:40,924.message_producer.INFO  [x] Sent ('05/22/21 12:23:15', 'No Reading') to 03-food-B
+2023-09-28 16:38:10,925.message_producer.INFO  [x] Sent ('05/22/21 12:24:10', '96.8') to 01-smoker
+2023-09-28 16:38:10,926.message_producer.INFO  [x] Sent ('05/22/21 12:24:10', 'No Reading') to 02-food-A
+2023-09-28 16:38:10,926.message_producer.INFO  [x] Sent ('05/22/21 12:24:10', 'No Reading') to 03-food-B
+2023-09-28 16:38:40,927.message_producer.INFO  [x] Sent ('05/22/21 12:24:15', '96.8') to 01-smoker
+2023-09-28 16:38:40,928.message_producer.INFO  [x] Sent ('05/22/21 12:24:15', 'No Reading') to 02-food-A
+2023-09-28 16:38:40,928.message_producer.INFO  [x] Sent ('05/22/21 12:24:15', 'No Reading') to 03-food-B
+2023-09-28 16:39:10,929.message_producer.INFO  [x] Sent ('05/22/21 12:25:05', '100.6') to 01-smoker
+2023-09-28 16:39:10,929.message_producer.INFO  [x] Sent ('05/22/21 12:25:05', 'No Reading') to 02-food-A
+2023-09-28 16:39:10,931.message_producer.INFO  [x] Sent ('05/22/21 12:25:05', 'No Reading') to 03-food-B
+2023-09-28 16:39:40,931.message_producer.INFO  [x] Sent ('05/22/21 12:25:10', '100.9') to 01-smoker
+2023-09-28 16:39:40,932.message_producer.INFO  [x] Sent ('05/22/21 12:25:10', 'No Reading') to 02-food-A
+2023-09-28 16:39:40,932.message_producer.INFO  [x] Sent ('05/22/21 12:25:10', 'No Reading') to 03-food-B
+2023-09-28 16:40:10,933.message_producer.INFO  [x] Sent ('05/22/21 12:25:15', '100.9') to 01-smoker
+2023-09-28 16:40:10,934.message_producer.INFO  [x] Sent ('05/22/21 12:25:15', 'No Reading') to 02-food-A
+2023-09-28 16:40:10,934.message_producer.INFO  [x] Sent ('05/22/21 12:25:15', 'No Reading') to 03-food-B
+2023-09-28 16:40:40,935.message_producer.INFO  [x] Sent ('05/22/21 12:26:10', '104.8') to 01-smoker
+2023-09-28 16:40:40,936.message_producer.INFO  [x] Sent ('05/22/21 12:26:10', 'No Reading') to 02-food-A
+2023-09-28 16:40:40,936.message_producer.INFO  [x] Sent ('05/22/21 12:26:10', 'No Reading') to 03-food-B
+2023-09-28 16:41:10,937.message_producer.INFO  [x] Sent ('05/22/21 12:26:15', '104.8') to 01-smoker
+2023-09-28 16:41:10,938.message_producer.INFO  [x] Sent ('05/22/21 12:26:15', 'No Reading') to 02-food-A
+2023-09-28 16:41:10,938.message_producer.INFO  [x] Sent ('05/22/21 12:26:15', 'No Reading') to 03-food-B
+2023-09-28 16:41:40,939.message_producer.INFO  [x] Sent ('05/22/21 12:27:10', '108.2') to 01-smoker
+2023-09-28 16:41:40,939.message_producer.INFO  [x] Sent ('05/22/21 12:27:10', 'No Reading') to 02-food-A
+2023-09-28 16:41:40,941.message_producer.INFO  [x] Sent ('05/22/21 12:27:10', 'No Reading') to 03-food-B
+2023-09-28 16:42:10,942.message_producer.INFO  [x] Sent ('05/22/21 12:27:15', '108.2') to 01-smoker
+2023-09-28 16:42:10,942.message_producer.INFO  [x] Sent ('05/22/21 12:27:15', 'No Reading') to 02-food-A
+2023-09-28 16:42:10,942.message_producer.INFO  [x] Sent ('05/22/21 12:27:15', 'No Reading') to 03-food-B
+2023-09-28 16:42:40,943.message_producer.INFO  [x] Sent ('05/22/21 12:28:10', '111.4') to 01-smoker
+2023-09-28 16:42:40,943.message_producer.INFO  [x] Sent ('05/22/21 12:28:10', 'No Reading') to 02-food-A
+2023-09-28 16:42:40,943.message_producer.INFO  [x] Sent ('05/22/21 12:28:10', 'No Reading') to 03-food-B
+2023-09-28 16:43:10,945.message_producer.INFO  [x] Sent ('05/22/21 12:28:15', '111.4') to 01-smoker
+2023-09-28 16:43:10,945.message_producer.INFO  [x] Sent ('05/22/21 12:28:15', 'No Reading') to 02-food-A
+2023-09-28 16:43:10,946.message_producer.INFO  [x] Sent ('05/22/21 12:28:15', 'No Reading') to 03-food-B
+2023-09-28 16:43:40,946.message_producer.INFO  [x] Sent ('05/22/21 12:29:10', '114.2') to 01-smoker
+2023-09-28 16:43:40,946.message_producer.INFO  [x] Sent ('05/22/21 12:29:10', 'No Reading') to 02-food-A
+2023-09-28 16:43:40,947.message_producer.INFO  [x] Sent ('05/22/21 12:29:10', 'No Reading') to 03-food-B
+2023-09-28 16:44:10,949.message_producer.INFO  [x] Sent ('05/22/21 12:29:15', '114.2') to 01-smoker
+2023-09-28 16:44:10,949.message_producer.INFO  [x] Sent ('05/22/21 12:29:15', 'No Reading') to 02-food-A
+2023-09-28 16:44:10,949.message_producer.INFO  [x] Sent ('05/22/21 12:29:15', 'No Reading') to 03-food-B
+2023-09-28 16:44:40,950.message_producer.INFO  [x] Sent ('05/22/21 12:30:10', '116.9') to 01-smoker
+2023-09-28 16:44:40,950.message_producer.INFO  [x] Sent ('05/22/21 12:30:10', 'No Reading') to 02-food-A
+2023-09-28 16:44:40,950.message_producer.INFO  [x] Sent ('05/22/21 12:30:10', 'No Reading') to 03-food-B
+2023-09-28 16:45:10,952.message_producer.INFO  [x] Sent ('05/22/21 12:30:15', '116.9') to 01-smoker
+2023-09-28 16:45:10,952.message_producer.INFO  [x] Sent ('05/22/21 12:30:15', 'No Reading') to 02-food-A
+2023-09-28 16:45:10,953.message_producer.INFO  [x] Sent ('05/22/21 12:30:15', 'No Reading') to 03-food-B
+2023-09-28 16:45:40,954.message_producer.INFO  [x] Sent ('05/22/21 12:31:10', '119.4') to 01-smoker
+2023-09-28 16:45:40,954.message_producer.INFO  [x] Sent ('05/22/21 12:31:10', 'No Reading') to 02-food-A
+2023-09-28 16:45:40,955.message_producer.INFO  [x] Sent ('05/22/21 12:31:10', 'No Reading') to 03-food-B
+2023-09-28 16:46:10,956.message_producer.INFO  [x] Sent ('05/22/21 12:31:15', '119.4') to 01-smoker
+2023-09-28 16:46:10,956.message_producer.INFO  [x] Sent ('05/22/21 12:31:15', 'No Reading') to 02-food-A
+2023-09-28 16:46:10,956.message_producer.INFO  [x] Sent ('05/22/21 12:31:15', 'No Reading') to 03-food-B
+2023-09-28 16:46:40,957.message_producer.INFO  [x] Sent ('05/22/21 12:32:10', '120.1') to 01-smoker
+2023-09-28 16:46:40,957.message_producer.INFO  [x] Sent ('05/22/21 12:32:10', 'No Reading') to 02-food-A
+2023-09-28 16:46:40,959.message_producer.INFO  [x] Sent ('05/22/21 12:32:10', 'No Reading') to 03-food-B
+2023-09-28 16:47:10,959.message_producer.INFO  [x] Sent ('05/22/21 12:32:15', '120.1') to 01-smoker
+2023-09-28 16:47:10,960.message_producer.INFO  [x] Sent ('05/22/21 12:32:15', 'No Reading') to 02-food-A
+2023-09-28 16:47:10,960.message_producer.INFO  [x] Sent ('05/22/21 12:32:15', 'No Reading') to 03-food-B
+2023-09-28 16:47:40,962.message_producer.INFO  [x] Sent ('05/22/21 12:33:10', '106.2') to 01-smoker
+2023-09-28 16:47:40,963.message_producer.INFO  [x] Sent ('05/22/21 12:33:10', 'No Reading') to 02-food-A
+2023-09-28 16:47:40,963.message_producer.INFO  [x] Sent ('05/22/21 12:33:10', 'No Reading') to 03-food-B
+2023-09-28 16:48:10,963.message_producer.INFO  [x] Sent ('05/22/21 12:33:15', '106.2') to 01-smoker
+2023-09-28 16:48:10,964.message_producer.INFO  [x] Sent ('05/22/21 12:33:15', 'No Reading') to 02-food-A
+2023-09-28 16:48:10,964.message_producer.INFO  [x] Sent ('05/22/21 12:33:15', 'No Reading') to 03-food-B
+2023-09-28 16:48:40,965.message_producer.INFO  [x] Sent ('05/22/21 12:34:10', '103.5') to 01-smoker
+2023-09-28 16:48:40,966.message_producer.INFO  [x] Sent ('05/22/21 12:34:10', 'No Reading') to 02-food-A
+2023-09-28 16:48:40,966.message_producer.INFO  [x] Sent ('05/22/21 12:34:10', 'No Reading') to 03-food-B
+2023-09-28 16:49:10,967.message_producer.INFO  [x] Sent ('05/22/21 12:34:15', '103.5') to 01-smoker
+2023-09-28 16:49:10,967.message_producer.INFO  [x] Sent ('05/22/21 12:34:15', 'No Reading') to 02-food-A
+2023-09-28 16:49:10,968.message_producer.INFO  [x] Sent ('05/22/21 12:34:15', 'No Reading') to 03-food-B
+2023-09-28 16:49:40,970.message_producer.INFO  [x] Sent ('05/22/21 12:35:10', '105.3') to 01-smoker
+2023-09-28 16:49:40,970.message_producer.INFO  [x] Sent ('05/22/21 12:35:10', 'No Reading') to 02-food-A
+2023-09-28 16:49:40,970.message_producer.INFO  [x] Sent ('05/22/21 12:35:10', 'No Reading') to 03-food-B
+2023-09-28 16:50:10,971.message_producer.INFO  [x] Sent ('05/22/21 12:35:15', '105.3') to 01-smoker
+2023-09-28 16:50:10,971.message_producer.INFO  [x] Sent ('05/22/21 12:35:15', 'No Reading') to 02-food-A
+2023-09-28 16:50:10,972.message_producer.INFO  [x] Sent ('05/22/21 12:35:15', 'No Reading') to 03-food-B
+2023-09-28 16:50:40,973.message_producer.INFO  [x] Sent ('05/22/21 12:36:10', '106.9') to 01-smoker
+2023-09-28 16:50:40,973.message_producer.INFO  [x] Sent ('05/22/21 12:36:10', 'No Reading') to 02-food-A
+2023-09-28 16:50:40,974.message_producer.INFO  [x] Sent ('05/22/21 12:36:10', 'No Reading') to 03-food-B
+2023-09-28 16:51:10,975.message_producer.INFO  [x] Sent ('05/22/21 12:36:15', '106.9') to 01-smoker
+2023-09-28 16:51:10,975.message_producer.INFO  [x] Sent ('05/22/21 12:36:15', 'No Reading') to 02-food-A
+2023-09-28 16:51:10,975.message_producer.INFO  [x] Sent ('05/22/21 12:36:15', 'No Reading') to 03-food-B
+2023-09-28 16:51:40,976.message_producer.INFO  [x] Sent ('05/22/21 12:37:10', '111.9') to 01-smoker
+2023-09-28 16:51:40,977.message_producer.INFO  [x] Sent ('05/22/21 12:37:10', 'No Reading') to 02-food-A
+2023-09-28 16:51:40,977.message_producer.INFO  [x] Sent ('05/22/21 12:37:10', 'No Reading') to 03-food-B
+2023-09-28 16:52:10,978.message_producer.INFO  [x] Sent ('05/22/21 12:37:15', '111.9') to 01-smoker
+2023-09-28 16:52:10,979.message_producer.INFO  [x] Sent ('05/22/21 12:37:15', 'No Reading') to 02-food-A
+2023-09-28 16:52:10,979.message_producer.INFO  [x] Sent ('05/22/21 12:37:15', 'No Reading') to 03-food-B
+2023-09-28 16:52:40,980.message_producer.INFO  [x] Sent ('05/22/21 12:38:10', '114.2') to 01-smoker
+2023-09-28 16:52:40,980.message_producer.INFO  [x] Sent ('05/22/21 12:38:10', 'No Reading') to 02-food-A
+2023-09-28 16:52:40,980.message_producer.INFO  [x] Sent ('05/22/21 12:38:10', 'No Reading') to 03-food-B
+2023-09-28 16:53:10,981.message_producer.INFO  [x] Sent ('05/22/21 12:38:15', '114.2') to 01-smoker
+2023-09-28 16:53:10,982.message_producer.INFO  [x] Sent ('05/22/21 12:38:15', 'No Reading') to 02-food-A
+2023-09-28 16:53:10,982.message_producer.INFO  [x] Sent ('05/22/21 12:38:15', 'No Reading') to 03-food-B
+2023-09-28 16:53:40,983.message_producer.INFO  [x] Sent ('05/22/21 12:39:10', '115.5') to 01-smoker
+2023-09-28 16:53:40,983.message_producer.INFO  [x] Sent ('05/22/21 12:39:10', 'No Reading') to 02-food-A
+2023-09-28 16:53:40,984.message_producer.INFO  [x] Sent ('05/22/21 12:39:10', 'No Reading') to 03-food-B
+2023-09-28 16:54:10,985.message_producer.INFO  [x] Sent ('05/22/21 12:39:15', '115.5') to 01-smoker
+2023-09-28 16:54:10,985.message_producer.INFO  [x] Sent ('05/22/21 12:39:15', 'No Reading') to 02-food-A
+2023-09-28 16:54:10,986.message_producer.INFO  [x] Sent ('05/22/21 12:39:15', 'No Reading') to 03-food-B
+2023-09-28 16:54:40,986.message_producer.INFO  [x] Sent ('05/22/21 12:40:10', '112.6') to 01-smoker
+2023-09-28 16:54:40,986.message_producer.INFO  [x] Sent ('05/22/21 12:40:10', 'No Reading') to 02-food-A
+2023-09-28 16:54:40,988.message_producer.INFO  [x] Sent ('05/22/21 12:40:10', 'No Reading') to 03-food-B
+2023-09-28 16:55:10,988.message_producer.INFO  [x] Sent ('05/22/21 12:40:15', '112.6') to 01-smoker
+2023-09-28 16:55:10,988.message_producer.INFO  [x] Sent ('05/22/21 12:40:15', 'No Reading') to 02-food-A
+2023-09-28 16:55:10,988.message_producer.INFO  [x] Sent ('05/22/21 12:40:15', 'No Reading') to 03-food-B
+2023-09-28 16:55:40,990.message_producer.INFO  [x] Sent ('05/22/21 12:41:10', '118.8') to 01-smoker
+2023-09-28 16:55:40,990.message_producer.INFO  [x] Sent ('05/22/21 12:41:10', 'No Reading') to 02-food-A
+2023-09-28 16:55:40,990.message_producer.INFO  [x] Sent ('05/22/21 12:41:10', 'No Reading') to 03-food-B
+2023-09-28 16:56:10,991.message_producer.INFO  [x] Sent ('05/22/21 12:41:15', '118.8') to 01-smoker
+2023-09-28 16:56:10,992.message_producer.INFO  [x] Sent ('05/22/21 12:41:15', 'No Reading') to 02-food-A
+2023-09-28 16:56:10,992.message_producer.INFO  [x] Sent ('05/22/21 12:41:15', 'No Reading') to 03-food-B
+2023-09-28 16:56:40,993.message_producer.INFO  [x] Sent ('05/22/21 12:42:10', '113.2') to 01-smoker
+2023-09-28 16:56:40,993.message_producer.INFO  [x] Sent ('05/22/21 12:42:10', 'No Reading') to 02-food-A
+2023-09-28 16:56:40,994.message_producer.INFO  [x] Sent ('05/22/21 12:42:10', 'No Reading') to 03-food-B
+2023-09-28 16:57:10,994.message_producer.INFO  [x] Sent ('05/22/21 12:42:15', '113.2') to 01-smoker
+2023-09-28 16:57:10,994.message_producer.INFO  [x] Sent ('05/22/21 12:42:15', 'No Reading') to 02-food-A
+2023-09-28 16:57:10,995.message_producer.INFO  [x] Sent ('05/22/21 12:42:15', 'No Reading') to 03-food-B
+2023-09-28 16:57:40,997.message_producer.INFO  [x] Sent ('05/22/21 12:43:10', '126.7') to 01-smoker
+2023-09-28 16:57:40,997.message_producer.INFO  [x] Sent ('05/22/21 12:43:10', 'No Reading') to 02-food-A
+2023-09-28 16:57:40,998.message_producer.INFO  [x] Sent ('05/22/21 12:43:10', 'No Reading') to 03-food-B
+2023-09-28 16:58:10,998.message_producer.INFO  [x] Sent ('05/22/21 12:43:15', '126.7') to 01-smoker
+2023-09-28 16:58:10,998.message_producer.INFO  [x] Sent ('05/22/21 12:43:15', 'No Reading') to 02-food-A
+2023-09-28 16:58:10,998.message_producer.INFO  [x] Sent ('05/22/21 12:43:15', 'No Reading') to 03-food-B
+2023-09-28 16:58:41,000.message_producer.INFO  [x] Sent ('05/22/21 12:44:10', '130.0') to 01-smoker
+2023-09-28 16:58:41,001.message_producer.INFO  [x] Sent ('05/22/21 12:44:10', 'No Reading') to 02-food-A
+2023-09-28 16:58:41,001.message_producer.INFO  [x] Sent ('05/22/21 12:44:10', 'No Reading') to 03-food-B
+2023-09-28 16:59:11,002.message_producer.INFO  [x] Sent ('05/22/21 12:44:15', '130.0') to 01-smoker
+2023-09-28 16:59:11,002.message_producer.INFO  [x] Sent ('05/22/21 12:44:15', 'No Reading') to 02-food-A
+2023-09-28 16:59:11,002.message_producer.INFO  [x] Sent ('05/22/21 12:44:15', 'No Reading') to 03-food-B
+2023-09-28 16:59:41,004.message_producer.INFO  [x] Sent ('05/22/21 12:45:10', '130.0') to 01-smoker
+2023-09-28 16:59:41,005.message_producer.INFO  [x] Sent ('05/22/21 12:45:10', 'No Reading') to 02-food-A
+2023-09-28 16:59:41,005.message_producer.INFO  [x] Sent ('05/22/21 12:45:10', 'No Reading') to 03-food-B
+2023-09-28 17:00:11,006.message_producer.INFO  [x] Sent ('05/22/21 12:45:15', '130.0') to 01-smoker
+2023-09-28 17:00:11,007.message_producer.INFO  [x] Sent ('05/22/21 12:45:15', 'No Reading') to 02-food-A
+2023-09-28 17:00:11,007.message_producer.INFO  [x] Sent ('05/22/21 12:45:15', 'No Reading') to 03-food-B
+2023-09-28 17:00:41,008.message_producer.INFO  [x] Sent ('05/22/21 12:46:10', '137.3') to 01-smoker
+2023-09-28 17:00:41,008.message_producer.INFO  [x] Sent ('05/22/21 12:46:10', 'No Reading') to 02-food-A
+2023-09-28 17:00:41,009.message_producer.INFO  [x] Sent ('05/22/21 12:46:10', 'No Reading') to 03-food-B
+2023-09-28 17:01:11,010.message_producer.INFO  [x] Sent ('05/22/21 12:46:15', '137.3') to 01-smoker
+2023-09-28 17:01:11,010.message_producer.INFO  [x] Sent ('05/22/21 12:46:15', 'No Reading') to 02-food-A
+2023-09-28 17:01:11,011.message_producer.INFO  [x] Sent ('05/22/21 12:46:15', 'No Reading') to 03-food-B
+2023-09-28 17:01:41,011.message_producer.INFO  [x] Sent ('05/22/21 12:47:10', '139.5') to 01-smoker
+2023-09-28 17:01:41,012.message_producer.INFO  [x] Sent ('05/22/21 12:47:10', 'No Reading') to 02-food-A
+2023-09-28 17:01:41,012.message_producer.INFO  [x] Sent ('05/22/21 12:47:10', 'No Reading') to 03-food-B
+2023-09-28 17:02:11,013.message_producer.INFO  [x] Sent ('05/22/21 12:47:15', '139.5') to 01-smoker
+2023-09-28 17:02:11,014.message_producer.INFO  [x] Sent ('05/22/21 12:47:15', 'No Reading') to 02-food-A
+2023-09-28 17:02:11,014.message_producer.INFO  [x] Sent ('05/22/21 12:47:15', 'No Reading') to 03-food-B
+2023-09-28 17:02:41,015.message_producer.INFO  [x] Sent ('05/22/21 12:48:10', '141.8') to 01-smoker
+2023-09-28 17:02:41,016.message_producer.INFO  [x] Sent ('05/22/21 12:48:10', 'No Reading') to 02-food-A
+2023-09-28 17:02:41,016.message_producer.INFO  [x] Sent ('05/22/21 12:48:10', 'No Reading') to 03-food-B
+2023-09-28 17:03:11,017.message_producer.INFO  [x] Sent ('05/22/21 12:48:15', '141.8') to 01-smoker
+2023-09-28 17:03:11,018.message_producer.INFO  [x] Sent ('05/22/21 12:48:15', 'No Reading') to 02-food-A
+2023-09-28 17:03:11,018.message_producer.INFO  [x] Sent ('05/22/21 12:48:15', 'No Reading') to 03-food-B
+2023-09-28 17:03:41,019.message_producer.INFO  [x] Sent ('05/22/21 12:49:10', '143.6') to 01-smoker
+2023-09-28 17:03:41,020.message_producer.INFO  [x] Sent ('05/22/21 12:49:10', 'No Reading') to 02-food-A
+2023-09-28 17:03:41,020.message_producer.INFO  [x] Sent ('05/22/21 12:49:10', 'No Reading') to 03-food-B
+2023-09-28 17:04:11,021.message_producer.INFO  [x] Sent ('05/22/21 12:49:15', '143.6') to 01-smoker
+2023-09-28 17:04:11,021.message_producer.INFO  [x] Sent ('05/22/21 12:49:15', 'No Reading') to 02-food-A
+2023-09-28 17:04:11,021.message_producer.INFO  [x] Sent ('05/22/21 12:49:15', 'No Reading') to 03-food-B
+2023-09-28 17:04:41,023.message_producer.INFO  [x] Sent ('05/22/21 12:50:10', '145.0') to 01-smoker
+2023-09-28 17:04:41,023.message_producer.INFO  [x] Sent ('05/22/21 12:50:10', 'No Reading') to 02-food-A
+2023-09-28 17:04:41,024.message_producer.INFO  [x] Sent ('05/22/21 12:50:10', 'No Reading') to 03-food-B
+2023-09-28 17:05:11,025.message_producer.INFO  [x] Sent ('05/22/21 12:50:15', '145.0') to 01-smoker
+2023-09-28 17:05:11,025.message_producer.INFO  [x] Sent ('05/22/21 12:50:15', 'No Reading') to 02-food-A
+2023-09-28 17:05:11,025.message_producer.INFO  [x] Sent ('05/22/21 12:50:15', 'No Reading') to 03-food-B
+2023-09-28 17:05:41,026.message_producer.INFO  [x] Sent ('05/22/21 12:51:10', '146.2') to 01-smoker
+2023-09-28 17:05:41,026.message_producer.INFO  [x] Sent ('05/22/21 12:51:10', 'No Reading') to 02-food-A
+2023-09-28 17:05:41,026.message_producer.INFO  [x] Sent ('05/22/21 12:51:10', 'No Reading') to 03-food-B
+2023-09-28 17:06:11,028.message_producer.INFO  [x] Sent ('05/22/21 12:51:15', '146.2') to 01-smoker
+2023-09-28 17:06:11,028.message_producer.INFO  [x] Sent ('05/22/21 12:51:15', 'No Reading') to 02-food-A
+2023-09-28 17:06:11,029.message_producer.INFO  [x] Sent ('05/22/21 12:51:15', 'No Reading') to 03-food-B
+2023-09-28 17:06:41,030.message_producer.INFO  [x] Sent ('05/22/21 12:52:10', '147.5') to 01-smoker
+2023-09-28 17:06:41,031.message_producer.INFO  [x] Sent ('05/22/21 12:52:10', 'No Reading') to 02-food-A
+2023-09-28 17:06:41,031.message_producer.INFO  [x] Sent ('05/22/21 12:52:10', 'No Reading') to 03-food-B
+2023-09-28 17:07:11,031.message_producer.INFO  [x] Sent ('05/22/21 12:52:15', '147.5') to 01-smoker
+2023-09-28 17:07:11,032.message_producer.INFO  [x] Sent ('05/22/21 12:52:15', 'No Reading') to 02-food-A
+2023-09-28 17:07:11,032.message_producer.INFO  [x] Sent ('05/22/21 12:52:15', 'No Reading') to 03-food-B
+2023-09-28 17:07:41,034.message_producer.INFO  [x] Sent ('05/22/21 12:53:10', '148.7') to 01-smoker
+2023-09-28 17:07:41,034.message_producer.INFO  [x] Sent ('05/22/21 12:53:10', 'No Reading') to 02-food-A
+2023-09-28 17:07:41,035.message_producer.INFO  [x] Sent ('05/22/21 12:53:10', 'No Reading') to 03-food-B
+2023-09-28 17:08:11,036.message_producer.INFO  [x] Sent ('05/22/21 12:53:15', '148.7') to 01-smoker
+2023-09-28 17:08:11,037.message_producer.INFO  [x] Sent ('05/22/21 12:53:15', 'No Reading') to 02-food-A
+2023-09-28 17:08:11,037.message_producer.INFO  [x] Sent ('05/22/21 12:53:15', 'No Reading') to 03-food-B
+2023-09-28 17:08:41,038.message_producer.INFO  [x] Sent ('05/22/21 12:54:10', '149.9') to 01-smoker
+2023-09-28 17:08:41,038.message_producer.INFO  [x] Sent ('05/22/21 12:54:10', 'No Reading') to 02-food-A
+2023-09-28 17:08:41,039.message_producer.INFO  [x] Sent ('05/22/21 12:54:10', 'No Reading') to 03-food-B
+2023-09-28 17:09:11,040.message_producer.INFO  [x] Sent ('05/22/21 12:54:15', '149.9') to 01-smoker
+2023-09-28 17:09:11,040.message_producer.INFO  [x] Sent ('05/22/21 12:54:15', 'No Reading') to 02-food-A
+2023-09-28 17:09:11,041.message_producer.INFO  [x] Sent ('05/22/21 12:54:15', 'No Reading') to 03-food-B
+2023-09-28 17:09:41,041.message_producer.INFO  [x] Sent ('05/22/21 12:55:05', '151.1') to 01-smoker
+2023-09-28 17:09:41,042.message_producer.INFO  [x] Sent ('05/22/21 12:55:05', 'No Reading') to 02-food-A
+2023-09-28 17:09:41,042.message_producer.INFO  [x] Sent ('05/22/21 12:55:05', 'No Reading') to 03-food-B
+2023-09-28 17:10:11,043.message_producer.INFO  [x] Sent ('05/22/21 12:55:10', '151.2') to 01-smoker
+2023-09-28 17:10:11,043.message_producer.INFO  [x] Sent ('05/22/21 12:55:10', 'No Reading') to 02-food-A
+2023-09-28 17:10:11,043.message_producer.INFO  [x] Sent ('05/22/21 12:55:10', 'No Reading') to 03-food-B
+2023-09-28 17:10:41,045.message_producer.INFO  [x] Sent ('05/22/21 12:55:15', '151.2') to 01-smoker
+2023-09-28 17:10:41,045.message_producer.INFO  [x] Sent ('05/22/21 12:55:15', 'No Reading') to 02-food-A
+2023-09-28 17:10:41,046.message_producer.INFO  [x] Sent ('05/22/21 12:55:15', 'No Reading') to 03-food-B
+2023-09-28 17:11:11,047.message_producer.INFO  [x] Sent ('05/22/21 12:56:10', '152.4') to 01-smoker
+2023-09-28 17:11:11,047.message_producer.INFO  [x] Sent ('05/22/21 12:56:10', 'No Reading') to 02-food-A
+2023-09-28 17:11:11,048.message_producer.INFO  [x] Sent ('05/22/21 12:56:10', 'No Reading') to 03-food-B
+2023-09-28 17:11:41,049.message_producer.INFO  [x] Sent ('05/22/21 12:56:15', '152.4') to 01-smoker
+2023-09-28 17:11:41,049.message_producer.INFO  [x] Sent ('05/22/21 12:56:15', 'No Reading') to 02-food-A
+2023-09-28 17:11:41,049.message_producer.INFO  [x] Sent ('05/22/21 12:56:15', 'No Reading') to 03-food-B
+2023-09-28 17:12:11,050.message_producer.INFO  [x] Sent ('05/22/21 12:57:10', '153.4') to 01-smoker
+2023-09-28 17:12:11,050.message_producer.INFO  [x] Sent ('05/22/21 12:57:10', 'No Reading') to 02-food-A
+2023-09-28 17:12:11,050.message_producer.INFO  [x] Sent ('05/22/21 12:57:10', 'No Reading') to 03-food-B
+2023-09-28 17:12:41,052.message_producer.INFO  [x] Sent ('05/22/21 12:57:15', '153.4') to 01-smoker
+2023-09-28 17:12:41,053.message_producer.INFO  [x] Sent ('05/22/21 12:57:15', 'No Reading') to 02-food-A
+2023-09-28 17:12:41,053.message_producer.INFO  [x] Sent ('05/22/21 12:57:15', 'No Reading') to 03-food-B
+2023-09-28 17:13:11,054.message_producer.INFO  [x] Sent ('05/22/21 12:58:10', '154.5') to 01-smoker
+2023-09-28 17:13:11,054.message_producer.INFO  [x] Sent ('05/22/21 12:58:10', 'No Reading') to 02-food-A
+2023-09-28 17:13:11,054.message_producer.INFO  [x] Sent ('05/22/21 12:58:10', 'No Reading') to 03-food-B
+2023-09-28 17:13:41,055.message_producer.INFO  [x] Sent ('05/22/21 12:58:15', '154.5') to 01-smoker
+2023-09-28 17:13:41,056.message_producer.INFO  [x] Sent ('05/22/21 12:58:15', 'No Reading') to 02-food-A
+2023-09-28 17:13:41,056.message_producer.INFO  [x] Sent ('05/22/21 12:58:15', 'No Reading') to 03-food-B
+2023-09-28 17:14:11,058.message_producer.INFO  [x] Sent ('05/22/21 12:59:10', '155.6') to 01-smoker
+2023-09-28 17:14:11,058.message_producer.INFO  [x] Sent ('05/22/21 12:59:10', 'No Reading') to 02-food-A
+2023-09-28 17:14:11,059.message_producer.INFO  [x] Sent ('05/22/21 12:59:10', 'No Reading') to 03-food-B
+2023-09-28 17:14:41,059.message_producer.INFO  [x] Sent ('05/22/21 12:59:15', '155.6') to 01-smoker
+2023-09-28 17:14:41,060.message_producer.INFO  [x] Sent ('05/22/21 12:59:15', 'No Reading') to 02-food-A
+2023-09-28 17:14:41,060.message_producer.INFO  [x] Sent ('05/22/21 12:59:15', 'No Reading') to 03-food-B
+2023-09-28 17:15:11,061.message_producer.INFO  [x] Sent ('05/22/21 13:00:10', '156.5') to 01-smoker
+2023-09-28 17:15:11,062.message_producer.INFO  [x] Sent ('05/22/21 13:00:10', 'No Reading') to 02-food-A
+2023-09-28 17:15:11,062.message_producer.INFO  [x] Sent ('05/22/21 13:00:10', 'No Reading') to 03-food-B
+2023-09-28 17:15:41,063.message_producer.INFO  [x] Sent ('05/22/21 13:00:15', '156.5') to 01-smoker
+2023-09-28 17:15:41,063.message_producer.INFO  [x] Sent ('05/22/21 13:00:15', 'No Reading') to 02-food-A
+2023-09-28 17:15:41,063.message_producer.INFO  [x] Sent ('05/22/21 13:00:15', 'No Reading') to 03-food-B
+2023-09-28 17:16:11,065.message_producer.INFO  [x] Sent ('05/22/21 13:01:10', '157.8') to 01-smoker
+2023-09-28 17:16:11,065.message_producer.INFO  [x] Sent ('05/22/21 13:01:10', 'No Reading') to 02-food-A
+2023-09-28 17:16:11,065.message_producer.INFO  [x] Sent ('05/22/21 13:01:10', 'No Reading') to 03-food-B
+2023-09-28 17:16:41,066.message_producer.INFO  [x] Sent ('05/22/21 13:01:15', '157.8') to 01-smoker
+2023-09-28 17:16:41,066.message_producer.INFO  [x] Sent ('05/22/21 13:01:15', 'No Reading') to 02-food-A
+2023-09-28 17:16:41,066.message_producer.INFO  [x] Sent ('05/22/21 13:01:15', 'No Reading') to 03-food-B
+2023-09-28 17:17:11,068.message_producer.INFO  [x] Sent ('05/22/21 13:02:10', '158.8') to 01-smoker
+2023-09-28 17:17:11,068.message_producer.INFO  [x] Sent ('05/22/21 13:02:10', 'No Reading') to 02-food-A
+2023-09-28 17:17:11,069.message_producer.INFO  [x] Sent ('05/22/21 13:02:10', 'No Reading') to 03-food-B
+2023-09-28 17:17:41,070.message_producer.INFO  [x] Sent ('05/22/21 13:02:15', '158.8') to 01-smoker
+2023-09-28 17:17:41,070.message_producer.INFO  [x] Sent ('05/22/21 13:02:15', 'No Reading') to 02-food-A
+2023-09-28 17:17:41,070.message_producer.INFO  [x] Sent ('05/22/21 13:02:15', 'No Reading') to 03-food-B
+2023-09-28 17:18:11,072.message_producer.INFO  [x] Sent ('05/22/21 13:03:10', '159.9') to 01-smoker
+2023-09-28 17:18:11,073.message_producer.INFO  [x] Sent ('05/22/21 13:03:10', 'No Reading') to 02-food-A
+2023-09-28 17:18:11,073.message_producer.INFO  [x] Sent ('05/22/21 13:03:10', 'No Reading') to 03-food-B
+2023-09-28 17:18:41,074.message_producer.INFO  [x] Sent ('05/22/21 13:03:15', '159.9') to 01-smoker
+2023-09-28 17:18:41,074.message_producer.INFO  [x] Sent ('05/22/21 13:03:15', 'No Reading') to 02-food-A
+2023-09-28 17:18:41,075.message_producer.INFO  [x] Sent ('05/22/21 13:03:15', 'No Reading') to 03-food-B
+2023-09-28 17:19:11,075.message_producer.INFO  [x] Sent ('05/22/21 13:04:10', '160.7') to 01-smoker
+2023-09-28 17:19:11,075.message_producer.INFO  [x] Sent ('05/22/21 13:04:10', 'No Reading') to 02-food-A
+2023-09-28 17:19:11,075.message_producer.INFO  [x] Sent ('05/22/21 13:04:10', 'No Reading') to 03-food-B
+2023-09-28 17:19:41,078.message_producer.INFO  [x] Sent ('05/22/21 13:04:15', '160.7') to 01-smoker
+2023-09-28 17:19:41,078.message_producer.INFO  [x] Sent ('05/22/21 13:04:15', 'No Reading') to 02-food-A
+2023-09-28 17:19:41,078.message_producer.INFO  [x] Sent ('05/22/21 13:04:15', 'No Reading') to 03-food-B
+2023-09-28 17:20:11,079.message_producer.INFO  [x] Sent ('05/22/21 13:05:10', '161.9') to 01-smoker
+2023-09-28 17:20:11,079.message_producer.INFO  [x] Sent ('05/22/21 13:05:10', 'No Reading') to 02-food-A
+2023-09-28 17:20:11,080.message_producer.INFO  [x] Sent ('05/22/21 13:05:10', 'No Reading') to 03-food-B
+2023-09-28 17:20:41,081.message_producer.INFO  [x] Sent ('05/22/21 13:05:15', '161.9') to 01-smoker
+2023-09-28 17:20:41,081.message_producer.INFO  [x] Sent ('05/22/21 13:05:15', 'No Reading') to 02-food-A
+2023-09-28 17:20:41,082.message_producer.INFO  [x] Sent ('05/22/21 13:05:15', 'No Reading') to 03-food-B
+2023-09-28 17:21:11,083.message_producer.INFO  [x] Sent ('05/22/21 13:06:10', '163.1') to 01-smoker
+2023-09-28 17:21:11,083.message_producer.INFO  [x] Sent ('05/22/21 13:06:10', 'No Reading') to 02-food-A
+2023-09-28 17:21:11,083.message_producer.INFO  [x] Sent ('05/22/21 13:06:10', 'No Reading') to 03-food-B
