@@ -34,7 +34,6 @@ def smoker_callback(ch, method, properties, body):
     # decode the binary message body to a string
     logger.info(f" [x] Received {body.decode()}")
 
-    temperature_change = []
 
     # Setup Smoker Information
     
@@ -63,10 +62,9 @@ def smoker_callback(ch, method, properties, body):
                     logger.info(f"Smoker Temperature Alert at {smoker_timestamp}", "Smoker Temperature Has Changed More than 15 Degrees.")
                     # Send Email Alert
                     email_subject = f"Smoker Temperature Alert at {smoker_timestamp}"
-                    email_body = f"Smoker Temperature Alerted That It Has Changed More than 15 Degrees in the last 2.5 minutes at {smoker_timestamp}."
+                    email_body = f"At {smoker_timestamp}, Smoker Temperature Alerted That It Has Changed More than 15 Degrees in the last 2.5 minutes."
                     createAndSendEmailAlert(email_subject, email_body)
-                    # Reset alert message
-                    alert_message = False
+                    
         # Send Confirmation Report
         logger.info("[X] Smoker Temperature Received and Processed.")
         # Delete Message from Queue after Processing
