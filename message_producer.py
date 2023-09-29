@@ -102,7 +102,7 @@ def send_message(host: str, first_queue_name: str, second_queue_name: str, third
                 # print a message to the console for the user
                 logger.info(f" [x] Sent {message3} to {third_queue_name}")
                 # Wait 30 seconds between each message
-                time.sleep(30)
+                time.sleep(2)
                 
     except pika.exceptions.AMQPConnectionError as e:
         logger.error(f"Error: Connection to RabbitMQ server failed: {e}")

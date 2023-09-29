@@ -44,12 +44,14 @@ def foodA_callback(ch, method, properties, body):
             foodA_DEQUE.append(foodA_temp)
             
             # Check for temperature change from previous temperatures 
-            if len(foodA_DEQUE) >= 20:
+            if len(foodA_DEQUE) >= 20 and foodA_DEQUE:
                 temperature_change = foodA_DEQUE[-1] - foodA_DEQUE[0]
+            else:
+                temperature_change = None
 
             # Check for temperature change from previous temperatures outside tolerable (15)
-            if abs(temperature_change) < 1:
-                logger.info(F"Food A Temperature Alert at {foodA_timestamp}", "Food A Temperature Has Changed Less than 1 Degree.")
+            if temperature_change is not None and abs(temperature_change) < 1:
+                logger.info(f"Food A Temperature Alert at {foodA_timestamp}! - Food A Temperature Has Changed Less than 1 Degree.")
                 alert_message = True
                 
                 if alert_message:
@@ -57,8 +59,7 @@ def foodA_callback(ch, method, properties, body):
                     email_subject = f"FoodA Temperature Alert at {foodA_timestamp}"
                     email_body = f"Food A Temperature Alerted That It Has Changed Less than 1 Degree in the last 10 minutes at {foodA_timestamp} indicating a stall."
                     createAndSendEmailAlert(email_subject, email_body)
-                    # Reset alert message
-                    alert_message = False
+             
         # Send Confirmation Report
         logger.info("[X] FoodA Temperature Received and Processed.")
         # Delete Message from Queue after Processing

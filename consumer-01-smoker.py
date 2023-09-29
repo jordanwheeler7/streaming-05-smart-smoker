@@ -36,7 +36,7 @@ def smoker_callback(ch, method, properties, body):
 
 
     # Setup Smoker Information
-    
+    temperature_change = []
     try: 
         # Smoker Message
         smoker_message = body.decode().split(",")
@@ -51,15 +51,17 @@ def smoker_callback(ch, method, properties, body):
             
             # Check for temperature change from previous temperatures 
             if len(SMOKER_DEQUE) > 1:
-                temperature_change = [SMOKER_DEQUE[i] - SMOKER_DEQUE[- 1] 
-                                      for i in range(0, (len(SMOKER_DEQUE) -1), 1)]
+                temperature_change = [
+                    SMOKER_DEQUE[i] - SMOKER_DEQUE[-1] 
+                                      for i in range(0, (len(SMOKER_DEQUE) - 1), 1)
+                ]
                 
             # Check for temperature change from previous temperatures outside tolerable (15)
             if any(value > 15 for value in temperature_change):
                 alert_message = True
                 
                 if alert_message:
-                    logger.info(f"Smoker Temperature Alert at {smoker_timestamp}", "Smoker Temperature Has Changed More than 15 Degrees.")
+                    logger.info(f"Smoker Temperature Alert at {smoker_timestamp}! - Smoker Temperature Has Changed More than 15 Degrees.")
                     # Send Email Alert
                     email_subject = f"Smoker Temperature Alert at {smoker_timestamp}"
                     email_body = f"At {smoker_timestamp}, Smoker Temperature Alerted That It Has Changed More than 15 Degrees in the last 2.5 minutes."

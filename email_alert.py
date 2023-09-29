@@ -67,7 +67,7 @@ def createAndSendEmailAlert(email_subject: str, email_body: str):
 
     with open(".env.toml", "rb") as file_object:
         secret_dict = tomllib.load(file_object)
-    pprint.pprint(secret_dict)
+    # pprint.pprint(secret_dict)
 
     # basic information
 
@@ -82,8 +82,8 @@ def createAndSendEmailAlert(email_subject: str, email_body: str):
     msg["From"] = secret_dict["outgoing_email_address"]
     msg["To"] = secret_dict["outgoing_email_address"]
     msg["Reply-to"] = secret_dict["outgoing_email_address"]
-    #email_subject = "Email from Data Analyst and Python Developer"
-    #email_body = "Did you know the Python stadard library enables emailing?"
+    # email_subject = "Email from Data Analyst and Python Developer"
+    # email_body = "Did you know the Python stadard library enables emailing?"
 
     msg["Subject"] = email_subject
     msg.set_content(email_body)
