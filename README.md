@@ -39,8 +39,8 @@ Open up a terminal window and navigate to the file in which you have saved the r
 Running the consumers is similar to running the producer. 
 1. Open up a terminal window and navigate to the file in which you have saved the repository (I use `cd C:\Users\{filepath}`).
 2. Once there, start running your virtual environment.
-3. Once activated, run `python consumer_1.py` for the smoker temperature.
-4. Open another 2 more terminals and type `python consumer_2.py` for foodA, and `python consumer_3.py` for foodB in those terminals.
+3. Once activated, run `python consumer-1-smoker.py` for the smoker temperature.
+4. Open another 2 more terminals and type `python consumer-2-foodA.py` for foodA, and `python consumer-3-foodB.py` for foodB in those terminals.
 5. They will continue to listen until you close out of it using `Ctrl + C` or an interuption occurs.
 
 ## Notes
