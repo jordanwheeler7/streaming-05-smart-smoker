@@ -25,9 +25,9 @@ This repository serves as an example of streaming data. We demonstrate the proce
 
 ## File Descriptions
 - `message_producer.py` - This file is the producer that sends the messages to the consumers.
-- `consumer_1.py` - This file is the consumer that receives the messages from the producer and sends an email alert if the smoker temperature changes by more than 15 degrees in 2.5 minutes.
-- `consumer_2.py` - This file is the consumer for foodA that receives the messages from the producer and sends an email alert if the food temperature does not raise more than 1 degree over 10 minutes.
-- `consumer_3.py` - This file is the consumer for foodB that receives the messages from the producer and sends an email alert if the food temperature does not raise more than 1 degree over 10 minutes.  
+- `consumer-1-smoker.py` - This file is the consumer that receives the messages from the producer and sends an email alert if the smoker temperature changes by more than 15 degrees in 2.5 minutes.
+- `consumer-2-foodA.py` - This file is the consumer for foodA that receives the messages from the producer and sends an email alert if the food temperature does not raise more than 1 degree over 10 minutes.
+- `consumer-3-foodB.py` - This file is the consumer for foodB that receives the messages from the producer and sends an email alert if the food temperature does not raise more than 1 degree over 10 minutes.  
 - `smoker-temps.csv` - This file is the data source for the producer to send to the consumers.
 - `email_alert.py` - This file is the email alert that is sent to the user if the temperature changes by more than 15 degrees in 2.5 minutes or if the food temperature does not raise more than 1 degree over 10 minutes.
 - `.env-example.toml` - This file is the example of the .env file that is used to store the email address and password.
