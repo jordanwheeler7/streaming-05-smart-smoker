@@ -1,7 +1,7 @@
 # streaming-05-smart-smoker
 - [Jordan Wheeler](https://github.com/jordanwheeler7)
 - CSIS 44671: Streaming Data
-- Module 5/6: Creating a Producer
+- Module 5/6: Creating a Producer and Consumer with Alerts
 - 29 September 2023
 - [Github Pages](https://jordanwheeler7.github.io/streaming-05-smart-smoker/)
 
